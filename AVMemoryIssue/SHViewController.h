@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SHViewController : UIViewController
+#import <ZBarSDK/ZBarSDK.h>
+
+@interface SHViewController : UIViewController <ZBarReaderDelegate>
 
 @end
